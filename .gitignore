@@ -1,0 +1,32 @@
+# Compiled files.
+errored.tfstate
+*.tfstate
+*.tfstate.backup
+*.tfstate.*.backup
+*.plan.out
+plan.out
+crash.log
+plan.json
+*.plan.json
+
+# Status files.
+/infrastructure-live/**/status
+/infrastructure-live/**/status.apply
+/status.apply
+/status
+
+# Pulled in modules.
+.terraform/
+node_modules/
+
+# IDE files
+.idea/
+*.iml
+
+# Vim files
+*.swp
+
+Gemfile.lock
+
+# ignore kubernetes files
+kubeconfig*
